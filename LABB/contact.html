@@ -20,11 +20,14 @@
             <div class="header-menu">
                 <ul>
                 <li> <a href="index.html">Home</a> </li>
+                <li class="line"></li>
                 <li> <a href="about.html">About</a> </li>
+                <li class="line"></li>
                 <li> <a href="favorit-movies.html">Favorit Movies</a> </li>
+                <li class="line"></li>
                 <li> <a href="links.html">Links</a> </li>
-                <li> <a href="contact.html">Contact</a> </li>
-
+                <li class="line"></li>
+                <li> <a class="current" href="contact.html">Contact</a> </li>
                 </ul>
             </div>
             <!--testa bilden som en url i background-->
@@ -33,21 +36,54 @@
 
 
         <div class="main">
+        
+            <form>
+                <div class="input">
+                    <label for="text">Name:</label>
+                    <input type="text" placeholder="Name" required>
+                </div>
+            
+                <div class="input">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Email" required>
+                </div>
 
+                <div class="input">
+                    <label for="country-select">Where are you from?:</label>
+                        <select name="country-select" id="" required>
+                            <option value="">--Select---</option>
+                            <option value="">Sweden</option>
+                            <option value="">Denmark</option>
+                            <option value="">Norway</option>
+                            <option value="">Finland</option>
+                            <option value="">Island</option>
+                            <option value="">England</option>
+                    
+                        </select>
+                </div>
+
+                <div class="input">
+                    <label for="textarea">About you:</label>
+                    <textarea name="textarea" id="" cols="30" rows="10" required></textarea>
+                </div>
+
+                <div>
+                    <button type="">Submit</button>
+                </div>
+
+            </form>
         </div>
 
         <footer>
-            <div class="footer-info">
-
-                <ul>
-                    <li><strong>Contact:</strong></li>
-                    <li>Email: jonathan@labb.com</li>
-                    <li><a href="about.html">Phone: 0451 112</a></li>
-                    <li>Adress: Helsingborg, Södergatan 12a</li>
-                </ul>
-
-            </div>
-
+            <ul>
+                <li><strong>Contact:</strong></li>
+                <li>Email: jonathan@labb.com</li>
+                <li>Phone: 0451 112</li>
+                <li>Adress: Helsingborg, Södergatan 12a</li>
+            </ul>
+        
+            <p>©2018, JMDC. All rights reserved.</p>
+        
         </footer>
     </div>
 </body>
