@@ -16,18 +16,18 @@
     <div class=" layout">
 
         <header>
-            <h1>Jonathan M. Dahnberg</h1>
+            <h1 class="header-title">JMDC</h1>
             <div class="header-menu">
                 <ul>
-                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="index.html">Hem</a> </li>
                 <li class="line"></li>
-                <li> <a href="about.html">About</a> </li>
+                <li> <a href="about.html">Om mig</a> </li>
                 <li class="line"></li>
-                <li> <a href="favorit-movies.html">Favorit Movies</a> </li>
+                <li> <a href="favorit-movies.html">Favorit filmer</a> </li>
                 <li class="line"></li>
-                <li> <a href="links.html">Links</a> </li>
+                <li> <a href="links.html">Länkar</a> </li>
                 <li class="line"></li>
-                <li> <a class="current" href="contact.html">Contact</a> </li>
+                <li> <a class="current" href="contact.html">Kontakter</a> </li>
                 </ul>
             </div>
             <!--testa bilden som en url i background-->
@@ -36,11 +36,13 @@
 
 
         <div class="main">
-        
+            
+            <h1 class="page-title">Kontakter</h1>
+
             <form>
                 <div class="input">
-                    <label for="text">Name:</label>
-                    <input type="text" placeholder="Name" required>
+                    <label for="text">Namn:</label>
+                    <input type="text" placeholder="Namn" required>
                 </div>
             
                 <div class="input">
@@ -49,26 +51,27 @@
                 </div>
 
                 <div class="input">
-                    <label for="country-select">Where are you from?:</label>
+                    <label for="country-select">Vart kommer du ifrån?:</label>
                         <select name="country-select" id="" required>
-                            <option value="">--Select---</option>
-                            <option value="">Sweden</option>
-                            <option value="">Denmark</option>
-                            <option value="">Norway</option>
+                            <option value="">---Välj---</option>
+                            <option value="">Sverige</option>
+                            <option value="">Danmark</option>
+                            <option value="">Norge</option>
                             <option value="">Finland</option>
                             <option value="">Island</option>
                             <option value="">England</option>
+                            <option value="">Annat</option>
                     
                         </select>
                 </div>
 
                 <div class="input">
-                    <label for="textarea">About you:</label>
+                    <label for="textarea">Om dig:</label>
                     <textarea name="textarea" id="" cols="30" rows="10" required></textarea>
                 </div>
 
                 <div>
-                    <button type="">Submit</button>
+                    <button type="">Spara</button>
                 </div>
 
             </form>
@@ -82,8 +85,7 @@
                 <li>Adress: Helsingborg, Södergatan 12a</li>
             </ul>
         
-            <p>©2018, JMDC. All rights reserved.</p>
-        
+           
         </footer>
     </div>
 </body>

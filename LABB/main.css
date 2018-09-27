@@ -14,20 +14,21 @@ flex-direction: column;
 font-family: 'Fira Sans', sans-serif;
 }
 
-header{
+
 /*----------------------------header------------------------------*/
+header{
 
     width: 100%;
     height: 10%;
 
     
 
-    font-size: 10px;
-    background-color: rgba(243, 240, 240, 0.288);
+  
+    background-color: rgba(207, 207, 207, 0.288);
 
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
 
     
@@ -35,7 +36,12 @@ header{
 }
 
 .header-title{
-padding-left: 20px;
+    text-shadow: 5px 5px 5px rgba(134, 134, 134, 0.288);
+    font-size: 50px;
+    
+    padding: 30px;
+    position: relative;
+    left: 20px;
 }
 
 
@@ -48,8 +54,9 @@ padding-left: 20px;
     padding: 20px;
     margin-left: 10px;
 
-    font-size: 15px;
+    font-size: 20px;
     color: grey;
+    
 }
 
 ul >li a{
@@ -86,14 +93,29 @@ a:visited{
     text-decoration: none;
 }
 
-a:hover{
+a:hover{            /*tillhöt även listan på LINKS-sidan*/
     background: rgba(134, 134, 134, 0.288);
     cursor: pointer;
     border-radius: 2px;
+  
+    
 }
+
+.header-menu a:hover{
+
+  font-size: 30px;
+
+    transition-timing-function: ease-in;
+    transition: 1s;
+}
+
+
 /*----------------------------header end------------------------------*/
 
-/*----------------------------Main content------------------------------*/
+
+
+
+/*----------------------------MAIN content------------------------------*/
 
 
 .main > img{
@@ -106,22 +128,21 @@ a:hover{
 width: 100%;
 height: 50% ;
 margin: 20px;
-margin-bottom: 70px;
+margin-bottom: 200px;
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
 
-
+.page-title{
+    margin: 50px;
+    margin-bottom: 70px;
 }
 
 
 /*----------------------------About page------------------------------*/
-.about-title{
-    margin: 50px;
-    margin-bottom: 70px;
-}
 
 .content{
     margin-top: 10px;
@@ -129,6 +150,13 @@ margin-bottom: 70px;
 }
 
 /*----------------------------About page end------------------------------*/
+
+
+
+
+
+
+
 
 /*----------------------------Movie page------------------------------*/
 
@@ -166,15 +194,27 @@ tbody tr:nth-child(even) {
 }
 /*----------------------------Movie page end------------------------------*/
 
+
+
+
+
+
 /*----------------------------Link page------------------------------*/
 
 .main ul>li{
     padding: 10px;
 }
 
+.länkar{
+    border: 1px solid black;
+}
 
 
 /*----------------------------Link page end------------------------------*/
+
+
+
+
 
 
 /*----------------------------Contact page------------------------------*/
@@ -196,7 +236,18 @@ button:hover{
 
 
 
-/*----------------------------Main content end------------------------------*/
+
+
+
+
+
+
+/*----------------------------MAIN content end------------------------------*/
+
+
+
+
+
 
 
 /*----------------------------Footer------------------------------*/
@@ -223,10 +274,4 @@ footer ul{
     padding: 100px; 
 }
 
-footer p{
-    position: absolute;
-   right: 50px;
-
-   font-size: 13px;
-}
 /*----------------------------Footer end------------------------------*/
